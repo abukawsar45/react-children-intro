@@ -1,0 +1,24 @@
+.single-cart{
+    border: solid 4px aquamarine;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background: #09d41a;
+}
+.button{
+    background: #f3410bc5;
+    color: bisque;
+    width: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.button:hover{
+    background: #1619d1;
+    color: rgb(12, 224, 240);
+}
+@media only screen and (max-width: 600px) {
+    .single-cart {
+        background-color: lightblue;
+    }
+}

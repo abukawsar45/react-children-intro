@@ -1,0 +1,18 @@
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media only screen and (max-width: 776px) {
+    .cart-container {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        background: #2d11ca;
+    }
+}
+@media only screen and (max-width: 576px){
+    .cart-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background: #ca118c;
+    }
+}
